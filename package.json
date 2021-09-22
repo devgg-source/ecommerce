@@ -1,0 +1,33 @@
+{
+  "name": "proshop",
+  "version": "1.0.0",
+  "description": "shopping cart app",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node backend/server",
+    "server": "nodemon backend/server",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devgg-source/ecommerce.git"
+  },
+  "author": "Karthik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devgg-source/ecommerce/issues"
+  },
+  "homepage": "https://github.com/devgg-source/ecommerce#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.6"
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.1",
+    "nodemon": "^2.0.12"
+  }
+}
