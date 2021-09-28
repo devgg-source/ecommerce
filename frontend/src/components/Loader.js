@@ -15,7 +15,7 @@ const Loader = () => {
           marginTop: "200px",
         }}
       >
-        <span class="sr-only">Loading..</span>
+        <span className="sr-only">Loading..</span>
       </Spinner>
     </>
   );
