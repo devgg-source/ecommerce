@@ -85,7 +85,7 @@ export const payOrder =
 
       const config = {
         headers: {
-          "Content-Type": "aplication/json",
+          "Content-Type": "application/json",
           Authorization: `Bearer ${userInfo.token}`,
         },
       };
